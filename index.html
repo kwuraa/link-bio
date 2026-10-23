@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#12061f">
     <title>TITULO</title>
 
     <!-- Estilos externos -->
@@ -36,14 +37,14 @@
                 </div>
             </div>
 
-            <!-- WIDGET 2: Informações CTA -->
+            <!-- WIDGET 2: Bio / CTA -->
             <div class="widget2">
                 <div class="cta-info">
                     <span>Lorem ipsum<span class="destaque"> dolor sit amet.</span><br>Lorem ipsum dolor sit.</span>
                 </div>
             </div>
 
-            <!-- WIDGET 3: Redes sociais e link do site -->
+            <!-- WIDGET 3: Site + redes sociais -->
             <div class="widget3">
                 <!-- Link do site -->
                 <a href="#" target="_blank" class="site">
@@ -56,23 +57,19 @@
 
                 <!-- Redes sociais -->
                 <div class="redes-sociais">
-                    <!-- YouTube -->
-                    <a class="box-social youtube" href="https://www.youtube.com" target="_blank">
+                    <a class="box-social youtube" href="https://www.youtube.com" target="_blank" aria-label="YouTube">
                         <i class="fab fa-youtube"></i>
                     </a>
 
-                    <!-- Instagram -->
-                    <a class="box-social instagram" href="https://www.instagram.com" target="_blank">
+                    <a class="box-social instagram" href="https://www.instagram.com" target="_blank" aria-label="Instagram">
                         <i class="fab fa-instagram"></i>
                     </a>
 
-                    <!-- Spotify -->
-                    <a class="box-social spotify" href="https://spotify.com" target="_blank">
+                    <a class="box-social spotify" href="https://spotify.com" target="_blank" aria-label="Spotify">
                         <i class="fab fa-spotify"></i>
                     </a>
 
-                    <!-- Email -->
-                    <a class="box-social mail" href="mailto:seuemail@email.com" target="_blank">
+                    <a class="box-social mail" href="mailto:seuemail@email.com" target="_blank" aria-label="E-mail">
                         <i class="fas fa-envelope"></i>
                     </a>
                 </div>
@@ -81,31 +78,43 @@
             <!-- WIDGET 4: Call to action adicional -->
             <div class="widget4">
                 <a href="#" class="cta" target="_blank">
-                    <i class="fas fa-calendar-alt"></i>
-                    <h1>Lorem ipsum dolor sit amet.</h1>
+                    <div class="cta-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <div class="cta-text">
+                        <h1>Lorem ipsum dolor sit amet.</h1>
+                        <span>Toque para agendar</span>
+                    </div>
+                    <i class="fas fa-chevron-right cta-arrow"></i>
                 </a>
             </div>
 
             <!-- WIDGET 5: Embeds do Spotify -->
             <div class="widget5">
-                <span>Lorem ipsum dolor sit amet.</span>
+                <span class="widget5-label">
+                    <i class="fab fa-spotify"></i>
+                    Ouvidos recentemente
+                </span>
 
                 <!-- EMBED 1: Playlist do Spotify -->
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX186v583rmzp?utm_source=generator&theme=0" 
-                    width="100%" height="152" frameBorder="0" allowfullscreen="" 
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/playlist/37i9dQZF1DX186v583rmzp?utm_source=generator&theme=0"
+                    width="100%" height="152" frameBorder="0" allowfullscreen=""
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
                 </iframe>
                 <!-- Para alterar, substitua o link no atributo src pelo embed da playlist ou música desejada no Spotify -->
 
                 <!-- EMBED 2: Playlist do Spotify -->
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DXd9rSDyQguIk?utm_source=generator&theme=0" 
-                    width="100%" height="152" frameBorder="0" allowfullscreen="" 
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/playlist/37i9dQZF1DXd9rSDyQguIk?utm_source=generator&theme=0"
+                    width="100%" height="152" frameBorder="0" allowfullscreen=""
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
                 </iframe>
 
                 <!-- EMBED 3: Playlist do Spotify -->
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1Pcsy7nOw1nbEvWm1w3ZJ9?utm_source=generator&theme=0" 
-                    width="100%" height="152" frameBorder="0" allowfullscreen="" 
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/playlist/1Pcsy7nOw1nbEvWm1w3ZJ9?utm_source=generator&theme=0"
+                    width="100%" height="152" frameBorder="0" allowfullscreen=""
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
                 </iframe>
             </div>
