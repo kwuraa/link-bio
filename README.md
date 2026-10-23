@@ -17,6 +17,7 @@ Este é um template simples e estiloso para criar sua própria página de Link B
 ## Como Usar o Template
 
 ### 1. Clone ou Baixe o Repositório
+
 - Clone o repositório usando o comando:
   ```bash
   git clone https://github.com/RicardoMouraa/template-link-bio.git
@@ -24,6 +25,7 @@ Este é um template simples e estiloso para criar sua própria página de Link B
 - Ou faça o download do ZIP [clicando aqui](https://github.com/RicardoMouraa/template-link-bio/archive/refs/heads/main.zip).
 
 ### 2. Edite o Conteúdo
+
 1. Abra os arquivos no seu editor de código favorito.
 2. No arquivo `index.html`, altere:
    - Nome do usuário, imagem e @username na seção principal.
@@ -32,12 +34,15 @@ Este é um template simples e estiloso para criar sua própria página de Link B
    - Paleta de cores (opcional).
 
 ### 3. Adicione suas Imagens
+
 Substitua as imagens dentro da pasta `image`:
+
 - `user.png`: Foto do usuário.
 - `complemento.png`: Ícone complementar.
 - `site.png`: Miniatura do link do site.
 
 ### 4. Publique
+
 1. Utilize plataformas como [Netlify](https://www.netlify.com/) ou [Vercel](https://vercel.com/) para hospedar seu site gratuitamente.
 2. Apenas arraste e solte os arquivos na plataforma.
 
@@ -58,6 +63,7 @@ Substitua as imagens dentro da pasta `image`:
 ---
 
 ## Como Alterar os Embeds do Spotify
+
 1. Acesse o Spotify e escolha a playlist ou música desejada.
 2. Clique em **Compartilhar > Incorporar.**
 3. Copie o link do embed.
@@ -66,23 +72,13 @@ Substitua as imagens dentro da pasta `image`:
 ---
 
 ## Contribuições
+
 Contribuições são bem-vindas! Se você tem ideias para melhorar o template, envie um pull request.
 
 ---
 
 ## Licença
+
 Este projeto está sob a licença MIT. Sinta-se à vontade para usá-lo e personalizá-lo como desejar.
 
 ---
-
-Se você gostou deste template, é só me marcar nas redes sociais ao compartilhar! :)
-
----
-
-## Conheça mais sobre mim
-
-Me siga nas redes sociais para acompanhar meu trabalho e conteúdos:
-
-- **Instagram:** [@riicardomoura](https://www.instagram.com/riicardomoura/)
-- **TikTok:** [@riicardomoura](https://www.tiktok.com/@riicardomoura)
-- **Twitch:** [riicardomoura](https://www.twitch.tv/riicardomoura)
